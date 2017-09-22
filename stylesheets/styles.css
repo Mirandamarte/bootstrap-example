@@ -77,8 +77,9 @@ nav {
 
 footer {
   clear: both;
-  background: rgba(145, 106, 112, 1);
+  /*background: rgba(145, 106, 112, 1);*/
   height: 250px;
+  background color: grey;
 }
 
 
@@ -124,8 +125,6 @@ footer {
   width: 70%;
   height: 100%;
   float: left;
-  margin-bottom: 20px;
-  padding: 30px;
 }
 
 .main-container {
