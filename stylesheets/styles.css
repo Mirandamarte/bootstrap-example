@@ -1,0 +1,138 @@
+header {}
+
+body {
+  background-color: #DFDFDB;
+}
+
+.graffiti {
+  background-image: url("./images/grafiti.png");
+  background-size: cover;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  z-index: -10;
+}
+
+h1 {
+  font-family: "Abril Fatface";
+  font-size: 140px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+  margin-top: 160px;
+}
+
+h2 {
+  font-family: "inconsolata";
+  color: #1F1F1D;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: underline;
+  padding: (20, 20, 20, 0)
+}
+
+h3 {
+  font-family: "inconsolata";
+  color: #1F1F1D;
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  opacity: 0.8;
+}
+
+h4 {
+  font-family: "Abril Fatface";
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #fff;
+  margin-top: 25px;
+}
+
+main{
+  float:left;
+  height: 270px;
+  width: 100%;
+  background-image: url('../images/grafiti.png');
+}
+
+nav {
+  font-family: "inconsolata";
+  font-size: 16px;
+  font-weight: lighter;
+  color: grey;
+  font-style: normal;
+  text-align: right;
+  margin: 20px;
+}
+
+footer {
+  clear: both;
+  background: rgba(145, 106, 112, 1);
+  height: 250px;
+}
+
+
+.menu {
+  padding-right: 50px;
+  font-family: "inconsolata";
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.span {
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  height: auto;
+  width: 500px;
+}
+
+.skills {
+  background: rgba(145, 106, 112, 0.8);
+  font-family: "inconsolata";
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: left;
+  width: 30%;
+  float: right;
+}
+
+.skills-list {
+  padding: 30px;
+}
+
+.skill-h4 {
+  margin-bottom: 20px;
+}
+
+
+.works-container {
+  width: 70%;
+  height: 100%;
+  float: left;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.aside {
+  height: 100%;
+  margin-top: 50px;
+}
